@@ -1,11 +1,10 @@
 import { NgModule } from '@angular/core';
 
-import { LibComponent } from './component/lib.component';
-import { LibService } from './service/lib.service';
+import { ToastService } from './service/lib.service';
 
 @NgModule({
-  declarations: [LibComponent],
-  providers: [LibService],
-  exports: [LibComponent]
+  declarations: [],
+  providers: [ToastService],
+  exports: []
 })
-export class LibModule { }
+export class SimpleToast { }
